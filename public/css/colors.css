@@ -1,0 +1,189 @@
+.suggestions {
+    /*warm neutrals*/
+    color: #f5f5dc;
+    /*light beige*/
+    color: #483C32;
+    /*taupe*/
+    color: #FFFDD0;
+    /*cream*/
+
+    /*metallic neutrals*/
+    color: #FFD700;
+    /*gold*/
+    color: #c0c0c0;
+    /*silver*/
+    color: #B08D57;
+    /*bronze*/
+
+    /*Soft Pastels*/
+    color: #FADADD;
+    /*Pale pink, */
+    color: #E5CFFB;
+    /*light lavender, w*/
+    color: #3EB489;
+    /*or mint green */
+
+    /*Greys and Whites: s*/
+    color: #D3D3D3;
+    /*light grey*/
+
+
+    /*Complementary Blues*/
+    color: #87CEEB;
+    /*sky blue*/
+    color: #B6D0E2;
+    /*powder blue*/
+
+
+    /*Vibrant contrasts*/
+    color: #FF7F50;
+    /*coral*/
+    color: #FFDB58;
+    /*msutard yellow*/
+    color: #008080;
+    /*teal*/
+
+
+
+
+
+}
+
+
+body {
+    background: linear-gradient(180deg, #152A38 31.25%, rgba(33, 71, 96, 0.89) 63.54%, rgba(25, 50, 67, 0.25) 99.99%, rgba(21, 42, 56, 0.00) 100%), linear-gradient(180deg, rgba(21, 42, 56, 0.00) 0%, rgba(33, 71, 96, 0.89) 63.54%, #152A38 99.99%, rgba(25, 50, 67, 0.25) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+header {
+    color: #fff;
+}
+
+footer {
+    color: #fff;
+}
+
+.navbar {
+    color: white;
+}
+
+.navbar-brand a {
+    color: white;
+}
+
+.navbar-toggler span {
+    background-color: white;
+}
+
+.navbar-menu ul li a {
+    color: white;
+}
+
+.container h1 {
+    color: #FFFFFF;
+}
+
+h2 {
+    color: #FFF;
+}
+
+.container label {
+    color: #FFF;
+}
+
+.container input {
+    background: rgba(228, 228, 228, 0.31);
+}
+
+.prev,
+.next {
+    color: white;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.transparent-box {
+    background: rgba(253, 247, 191, 0.17);
+}
+
+.transparent-box label {
+    color: #FFF;
+}
+
+.transparent-box input {
+    background: rgba(228, 228, 228, 0.31);
+}
+
+.submit-button {
+    color: #EFF0B0;
+}
+
+.error-message {
+    color: #bf0000;
+}
+
+.successful-message {
+    /* color: 	#B0FC38; */
+    color: #3EB489;
+}
+
+.h2 .a {
+    color: #0000;
+}
+
+.signup-header a {
+    color: #EFF0B0;
+}
+
+h3 {
+    color: #FFF;
+}
+
+.navbar-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+header.sticky {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(180deg, #152A38 31.25%, rgba(33, 71, 96, 0.89) 63.54%, rgba(25, 50, 67, 0.25) 99.99%, rgba(21, 42, 56, 0.00) 100%), linear-gradient(180deg, rgba(21, 42, 56, 0.00) 0%, rgba(33, 71, 96, 0.89) 63.54%, #152A38 99.99%, rgba(25, 50, 67, 0.25) 100%);
+}
+
+footer p,
+footer a {
+    color: #fff;
+}
+
+.sidebar {
+    background: linear-gradient(180deg, #152A38 31.25%, rgba(33, 71, 96, 0.89) 63.54%, rgba(25, 50, 67, 0.25) 99.99%, rgba(21, 42, 56, 0.00) 100%), linear-gradient(180deg, rgba(21, 42, 56, 0.00) 0%, rgba(33, 71, 96, 0.89) 63.54%, #152A38 99.99%, rgba(25, 50, 67, 0.25) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.sidebar-outline {
+    stroke: white;
+}
+
+.sidebar-nav li a {
+    color: white;
+}
+
+.sidebar-nav li a:hover {
+    background: linear-gradient(180deg, rgba(255, 249, 193, 0.17) 91.15%, rgba(106, 77, 77, 0.00) 100%);
+}
+
+.responsive-table th,
+.responsive-table td {
+    color: #FFF;
+    border: 1px solid #ddd;
+}
+
+.responsive-table thead {
+    color: #FFF;
+}
+
+
+.submit-button1 {
+    color: #EFF0B0;
+}

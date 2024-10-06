@@ -1,0 +1,370 @@
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 767px){
+    .container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+.container {
+    width: 80%;
+}
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 15px; 
+        font-size: 14px; 
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        padding: 20px; 
+        font-size: 12px; 
+    }
+}
+
+/* @media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-toggler {
+        display: block;
+    }
+
+    .navbar-menu {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-menu ul {
+        flex-direction: column;
+        width: 100%;
+        display: none;
+    }
+
+    .navbar-menu ul li a {
+        text-align: center;
+    }
+} */
+
+@media (max-width: 768px) {
+    .image-container {
+        width: 20vw; 
+        height: 20vw;
+        max-width: 50px; 
+        max-height: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container label {
+        font-size: 20px; 
+    }
+
+    .container input {
+        width: 90%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .container label {
+        font-size: 18px; 
+    }
+
+    .container input {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .carousel-images img {
+        width: 100%;
+        display: block;
+    }
+}
+
+  @media (max-width: 768px) {
+    swiper-slide {
+        width: 200px; 
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    swiper-slide {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .transparent-box label {
+        font-size: 16px; /* Smaller font size for space */
+    }
+
+    .transparent-box input {
+        max-width: 100%; /* Full width on smaller screens */
+        padding: 0 10px; /* Adjust padding */
+    }
+}
+
+/* Responsive adjustments for mobile devices */
+@media screen and (max-width: 480px) {
+    .transparent-box {
+        padding: 10px;
+        border-radius: 25px;
+        margin-bottom: 50px;
+    }
+
+    .transparent-box label {
+        font-size: 14px; /* Even smaller font size for very small screens */
+        margin-bottom: 10px;
+    }
+
+    .transparent-box input {
+        height: 35px; /* Adjust height */
+        border-radius: 15px; /* Smaller radius for smaller elements */
+    }
+}
+
+/* @media (max-width: 768px){
+    .transparent-box {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .transparent-box input {
+        width: 100%; 
+    }
+}
+
+@media (min-width: 769px) {
+    .transparent-box input {
+        width: 90%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .transparent-box h2, .transparent-box label {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .transparent-box h2, .transparent-box label {
+        font-size: 18px;
+    }
+} */
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px){
+    .submit-button {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 0;
+    }
+
+    .container h1, .container label, .submit-button span {
+        font-size: smaller;
+    }
+}
+
+
+#keywords {
+    margin: 0 auto;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 960px; /* Adjust max-width as needed */
+    box-sizing: border-box; /* Ensures padding is included in width */
+  }
+  
+  #keywords thead {
+    cursor: pointer;
+    background: #c9dff0;
+  }
+  
+  #keywords thead tr th {
+    font-weight: bold;
+    padding: 12px 30px; /* Adjust padding for better spacing */
+    padding-left: 42px;
+  }
+  
+  #keywords thead tr th span {
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+  }
+  
+  /* ... other styles ... */
+  
+  #keywords tbody tr td {
+    text-align: center;
+    padding: 15px 10px;
+  }
+  
+  #keywords tbody tr td.lalign {
+    text-align: left; /* Adjust text alignment for readability */
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    #keywords {
+      width: calc(100% - 50px); /* Smaller side padding on smaller screens */
+      font-size: 1em; /* Smaller font size for space */
+    }
+  
+    #keywords thead tr th, 
+    #keywords tbody tr td {
+      padding: 10px; /* Reduce padding on smaller screens */
+    }
+  
+    #keywords thead tr th span {
+      padding-right: 10px; /* Adjust padding for icons */
+      background-size: 10px; /* Adjust icon size */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    #keywords {
+      width: 100%; /* Full width on very small screens */
+      font-size: 0.8em; /* Even smaller font size */
+    }
+  
+    #keywords thead, 
+    #keywords tbody {
+      display: block; /* Switch to block layout */
+    }
+  
+    #keywords thead tr {
+      display: none; /* Hide the header row */
+    }
+  
+    #keywords tbody tr td {
+      display: block; /* Stack cells vertically */
+      text-align: right; /* Align text to the right */
+      padding-left: 50%; /* Add space for labels */
+      position: relative; /* Enable absolute positioning inside */
+    }
+  
+    #keywords tbody tr td:before {
+      content: attr(data-label); /* Use data-label attribute for content */
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%); /* Center vertically */
+      font-weight: bold; /* Make labels bold */
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 768px) {
+    .navbar {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .navbar-toggler {
+        display: block; /* Show the toggle button on smaller screens */
+    }
+
+    .navbar-menu {
+        display: none; /* Hide the menu by default */
+        flex-direction: column; /* Stack the menu items vertically */
+        width: 100%; /* Full width */
+        position: absolute; /* Positioning it absolutely */
+        top: 100%; /* Right below the navbar */
+        left: 0;
+        background-color: #333; /* Background color for the dropdown */
+    }
+
+    .navbar-menu ul {
+        flex-direction: column; /* Stack the links vertically */
+    }
+
+    .navbar-menu ul li {
+        text-align: center; /* Center-align the links */
+        width: 100%; /* Full width */
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container h1 {
+        font-size: 24px; /* Smaller font size */
+        padding: 0 20px; /* Less padding */
+        width: auto; /* Allow it to be more flexible */
+        height: auto; /* Allow the height to adjust to content */
+    }
+}
+  
